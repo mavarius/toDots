@@ -1,10 +1,10 @@
 ## toDots
 
-[![CircleCI](https://circleci.com/gh/mavarius/toDots.svg?style=svg)](https://circleci.com/gh/mavarius/toDots)
+[![CircleCI](https://circleci.com/gh/mavarius/toDots.svg?style=shield)](https://circleci.com/gh/mavarius/toDots)
 
 Replace text in a string with periods.
 
-# Install
+## Install
 
 ```bash
 $ npm install toDots
