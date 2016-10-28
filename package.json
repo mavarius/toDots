@@ -1,13 +1,13 @@
 {
   "name": "toDots",
   "version": "1.0.0",
-  "description": "",
+  "description": "A package that replaces characters in a string with periods",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha ./test"
   },
   "keywords": [],
-  "author": "",
+  "author": "Daniel Campbell",
   "license": "ISC",
   "devDependencies": {
     "chai": "^3.5.0",
