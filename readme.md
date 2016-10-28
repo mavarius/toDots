@@ -12,7 +12,7 @@ $ npm install toDots
 
 ## Usage
 
-````js
+```js
 const toDots = require('toDots')
 toDots('SOME STRING') // --> '.... ......'
 ```
