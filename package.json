@@ -1,6 +1,6 @@
 {
   "name": "todots",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package that replaces characters in a string with periods",
   "main": "index.js",
   "scripts": {
