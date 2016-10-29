@@ -1,35 +1,35 @@
 const assert = require('chai').assert
 
-const toDots = require('./')
+const todots = require('./')
 
-describe('toDots', () => {
+describe('todots', () => {
 
   it('replaces characters in a string with periods', () => {
-    assert.equal(toDots('abcdefg'), ('.......'))
-    assert.equal(toDots('ABCDEFG'), ('.......'))
-    assert.equal(toDots('  13E  '), ('  ...  '))
-    assert.equal(toDots('a c e g'), ('. . . .'))
+    assert.equal(todots('abcdefg'), ('.......'))
+    assert.equal(todots('ABCDEFG'), ('.......'))
+    assert.equal(todots('  13E  '), ('  ...  '))
+    assert.equal(todots('a c e g'), ('. . . .'))
   })
 
   it('handles edge cases', () => {
-    assert.equal(toDots(''), (''))
-    assert.equal(toDots(' '), (' '))
+    assert.equal(todots(''), (''))
+    assert.equal(todots(' '), (' '))
   })
 
   it('throws with non-string input', () => {
-    assert.throws(() => toDots(null))
-    assert.throws(() => toDots({}))
-    assert.throws(() => toDots([]))
-    assert.throws(() => toDots(undefined))
-    assert.throws(() => toDots(123))
-    assert.throws(() => toDots(0))
-    assert.throws(() => toDots(true))
-    assert.throws(() => toDots(false))
-    assert.throws(() => toDots(NaN))
+    assert.throws(() => todots(null))
+    assert.throws(() => todots({}))
+    assert.throws(() => todots([]))
+    assert.throws(() => todots(undefined))
+    assert.throws(() => todots(123))
+    assert.throws(() => todots(0))
+    assert.throws(() => todots(true))
+    assert.throws(() => todots(false))
+    assert.throws(() => todots(NaN))
   })
 
   it('throws with missing input', () => {
-    assert.throws(() => toDots())
+    assert.throws(() => todots())
   })
 
 })

@@ -1,18 +1,18 @@
-## toDots
+## todots
 
-[![CircleCI](https://circleci.com/gh/mavarius/toDots.svg?style=shield)](https://circleci.com/gh/mavarius/toDots)
+[![CircleCI](https://circleci.com/gh/mavarius/todots.svg?style=shield)](https://circleci.com/gh/mavarius/todots)
 
 Replace text in a string with periods.
 
 ## Install
 
 ```bash
-$ npm install toDots
+$ npm install todots
 ```
 
 ## Usage
 
 ```js
-const toDots = require('toDots')
-toDots('SOME STRING') // --> '.... ......'
+const todots = require('todots')
+todots('SOME STRING') // --> '.... ......'
 ```
